@@ -321,15 +321,7 @@ h1 {
 
   background: #f5f4fa;
 }
-.footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2094px;
 
-  background: #2f303a;
-}
 .team-text {
   position: absolute;
   width: 264px;
@@ -534,4 +526,13 @@ h1 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+
+  background: #2f303a;
 }
