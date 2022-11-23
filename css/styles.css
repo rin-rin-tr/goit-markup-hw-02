@@ -21,13 +21,16 @@ ul {
   width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  top: 3px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: #000;
+}
+.logo-web {
   color: #2196f3;
 }
 .studio {
@@ -556,35 +559,10 @@ h1 {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
-}
-.email-foot {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-.tel-foot {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+  color: #000;
 }
 .logo-foot {
   width: 1600px;
@@ -597,5 +575,29 @@ h1 {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  color: #fff;
+}
+.logo-foot-web {
   color: #2196f3;
+}
+
+.email-foot {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  /*color: rgba(255, 255, 255, 0.6);*/
+  color: #000;
+}
+.tel-foot {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6);*/
+  color: #000;
 }
