@@ -459,12 +459,22 @@ h1 {
 }
 .mykola-name {
   position: absolute;
-  width: 270px;
-  height: 260px;
-  left: 815px;
-  top: 1632px;
-  background: url(16166.jpg);
-  border-radius: 0px;
+  width: 130px;
+  height: 19px;
+  left: 885px;
+  top: 1922px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
 .mykola-text {
   position: absolute;
