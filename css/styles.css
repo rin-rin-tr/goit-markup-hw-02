@@ -356,7 +356,6 @@ h1 {
 }
 .igor {
   background: #ffffff;
-  /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -390,7 +389,6 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -426,7 +424,6 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -445,7 +442,6 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -454,7 +450,6 @@ h1 {
 }
 .mykola {
   background: #ffffff;
-  /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -476,7 +471,6 @@ h1 {
   height: 260px;
   left: 815px;
   top: 1632px;
-
   background: url(16166.jpg);
   border-radius: 0px;
 }
@@ -486,14 +480,11 @@ h1 {
   height: 19px;
   left: 912px;
   top: 1951px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -501,8 +492,6 @@ h1 {
 }
 .mykhaylo {
   background: #ffffff;
-  /* material shadow v1 */
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -513,7 +502,6 @@ h1 {
   height: 260px;
   left: 1115px;
   top: 1632px;
-
   background: url(2968.jpg);
   border-radius: 0px;
 }
@@ -523,17 +511,13 @@ h1 {
   height: 19px;
   left: 1178px;
   top: 1922px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .mykhaylo-text {
@@ -542,16 +526,12 @@ h1 {
   height: 19px;
   left: 1207px;
   top: 1951px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
