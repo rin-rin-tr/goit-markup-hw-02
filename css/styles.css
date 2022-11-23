@@ -279,7 +279,7 @@ h1 {
   width: 366px;
   height: 42px;
   left: 617px;
-  top: 966px;
+  top: 900px;
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -313,7 +313,7 @@ h1 {
   top: 1058px;
 }
 .team {
-  position: absolute;
+  position: static;
   width: 1600px;
   height: 648px;
   left: 0px;
@@ -327,7 +327,7 @@ h1 {
   width: 264px;
   height: 42px;
   left: 668px;
-  top: 1540px;
+  top: 1500px;
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -374,7 +374,7 @@ h1 {
   width: 130px;
   height: 19px;
   left: 285px;
-  top: 1951px;
+  top: 1955px;
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -481,7 +481,7 @@ h1 {
   width: 76px;
   height: 19px;
   left: 912px;
-  top: 1951px;
+  top: 1956px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -527,7 +527,7 @@ h1 {
   width: 87px;
   height: 19px;
   left: 1207px;
-  top: 1951px;
+  top: 1958px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -545,4 +545,57 @@ h1 {
   top: 2094px;
 
   background: #2f303a;
+}
+.adress {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2205px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.email-foot {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tel-foot {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-foot {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
