@@ -8,17 +8,19 @@ ul {
   list-style-type: none;
 }
 :root {
-  --color: #212121;
+  --color-primary: #212121;
+  --color-secondary: #757575;
 }
 body {
   font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
-  color: var(--color);
+  color: var(--color-primary);
 }
 .button {
   background-color: #2196f3;
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -26,9 +28,6 @@ body {
 }
 .button:active {
   background-color: aqua;
-}
-.button {
-  cursor: pointer;
 }
 .mail:hover,
 .mail:focus,
@@ -41,7 +40,7 @@ body {
   color: #2196f3;
 }
 .tel {
-  color: #757575;
+  color: var(--color-secondary);
 }
 
 .logo {
@@ -57,7 +56,8 @@ body {
 .logo-studio-foot {
   /*color: #fff*/
 }
-.studio {
+.studio,
+.link-item {
   font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 14px;
@@ -66,12 +66,7 @@ body {
   color: #2196f3;
 }
 .link-item {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-primary);
 }
 h1 {
   font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
@@ -98,8 +93,7 @@ p {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--color-secondary);
 }
 h2 {
   font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
@@ -108,15 +102,11 @@ h2 {
   line-height: 2.625;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--color-primary);
 }
-.name {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  line-height: 1.187;
-}
+.name,
 .job {
+  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.187;
 }
