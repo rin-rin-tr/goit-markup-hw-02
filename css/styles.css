@@ -10,37 +10,58 @@ ul {
 :root {
   --color-primary: #212121;
   --color-secondary: #757575;
+  --color-bg-dark: #2f303a;
+  --color-bg-team: #f5f4fa;
+  --color-rare: #2196f3;
+  --color-foot: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-primary);
+  background-color: #fff;
 }
 .button {
-  background-color: #2196f3;
+  background-color: var(--color-rare);
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button:hover,
 .button:focus {
-  background-color: #104f83;
+  background-color: #188ce8;
 }
 .button:active {
-  background-color: aqua;
+  background-color: #188ce8;
 }
 .mail:hover,
 .mail:focus,
 .tel:hover,
 .tel:focus {
-  color: aqua;
-  text-decoration: underline;
+  color: #2196f3;
 }
 .mail {
   color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .tel {
   color: var(--color-secondary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -54,11 +75,10 @@ body {
   color: #000;
 }
 .logo-studio-foot {
-  /*color: #fff*/
+  color: #fff;
 }
 .studio,
 .link-item {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -68,18 +88,29 @@ body {
 .link-item {
   color: var(--color-primary);
 }
-h1 {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
+.header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
-h3 {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.li-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -87,45 +118,100 @@ h3 {
   text-transform: uppercase;
   color: #212121;
 }
-p {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
-  font-weight: 400;
+.team-bg {
+  background-color: #fff;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+}
+.main-text,
+.job {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--color-secondary);
 }
-h2 {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
+.what-we-do,
+.our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.625;
+  line-height: 1.666;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-primary);
 }
 .name,
 .job {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.187;
 }
 .contact-foot,
 .adress {
-  font-family: "Roboto", sans-serif, Georgia, "Times New Roman", Times, serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
 .adress {
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 .contact-foot {
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: var(--color-foot);
 }
 .contact-foot:hover,
-.contact-foot:focus {
-  color: aqua;
-  text-decoration: underline;
+.contact-foot:focus,
+.adress:focus,
+.adress:hover {
+  color: #2196f3;
+}
+.head-section {
+  background-color: var(--color-bg-dark);
+}
+.footer {
+  background-color: var(--color-bg-dark);
+}
+.team {
+  background-color: var(--color-bg-team);
+}
+.brand-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.brand-description {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.b-everything {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.b-web-sites,
+.b-apps,
+.b-disign,
+.b-marketing {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
