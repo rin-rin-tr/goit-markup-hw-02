@@ -200,6 +200,12 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.b-everything:focus,
+.b-everything:hover,
+.b-everything:active{
+   background-color: #188ce8;
+}
+}
 .b-web-sites,
 .b-apps,
 .b-disign,
