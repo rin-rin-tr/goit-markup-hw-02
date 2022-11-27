@@ -78,17 +78,29 @@ body {
 .logo-studio-foot {
   color: #fff;
 }
-.link-item {
+.link-item,
+.link-studio,
+.link-portfolio {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--color-primary);
 }
-/*.link-item {
-  
+.link-item:hover,
+.link-item:focus,
+.link-studio:hover,
+.link-studio:focus,
+.link-portfolio:hover,
+.link-portfolio:focus {
   color: #2196f3;
-}*/
+}
+.link-studio.current {
+  color: #2196f3;
+}
+.link-portfolio.current {
+  color: #2196f3;
+}
 .header {
   font-weight: 900;
   font-size: 44px;
@@ -167,6 +179,7 @@ body {
 .adress:focus,
 .adress:hover {
   color: #2196f3;
+  cursor: default;
 }
 .head-section {
   background-color: var(--color-bg-dark);
