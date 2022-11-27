@@ -15,6 +15,7 @@ ul {
   --color-rare: #2196f3;
   --color-foot: rgba(255, 255, 255, 0.6);
   --color-brand-dcr: #757575;
+  --color-button-bg: #188ce8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -39,16 +40,16 @@ body {
 }
 .button:hover,
 .button:focus {
-  background-color: #188ce8;
+  background-color: var(--color-button-bg);
 }
 .button:active {
-  background-color: #188ce8;
+  background-color: var(--color-button-bg);
 }
 .mail:hover,
 .mail:focus,
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  color: var(--color-rare);
 }
 .mail {
   color: var(--color-secondary);
@@ -70,7 +71,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color-rare);
 }
 .logo-studio {
   color: #000;
@@ -93,13 +94,13 @@ body {
 .link-studio:focus,
 .link-portfolio:hover,
 .link-portfolio:focus {
-  color: #2196f3;
+  color: var(--color-rare);
 }
 .link-studio.current {
-  color: #2196f3;
+  color: var(--color-rare);
 }
 .link-portfolio.current {
-  color: #2196f3;
+  color: var(--color-rare);
 }
 .header {
   font-weight: 900;
@@ -108,7 +109,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 
 .visually-hidden {
@@ -129,7 +130,7 @@ body {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-primary);
 }
 .team-bg {
   background-color: #fff;
@@ -164,12 +165,13 @@ body {
 }
 .contact-foot,
 .adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
 .adress {
-  color: #ffffff;
+  color: #fff;
 }
 .contact-foot {
   color: var(--color-foot);
@@ -178,7 +180,7 @@ body {
 .contact-foot:focus,
 .adress:focus,
 .adress:hover {
-  color: #2196f3;
+  color: var(--color-rare);
   cursor: default;
 }
 .head-section {
@@ -195,13 +197,13 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--color-primary);
 }
 .brand-description {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-brand-dcr);
 }
 /*.b-everything {
   cursor: pointer;
@@ -224,7 +226,7 @@ body {
 .b-marketing,
 .b-everything {
   cursor: pointer;
-  background: #f5f4fa;
+  background: var(--color-bg-team)
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -232,7 +234,7 @@ body {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-primary);
 }
 .b-everything:focus,
 .b-everything:hover,
@@ -249,7 +251,7 @@ body {
 .b-apps:active,
 .b-disign:active,
 .b-marketing:active {
-  background-color: #2196f3;
+  background-color: var(--color-rare);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
