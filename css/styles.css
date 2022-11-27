@@ -14,6 +14,7 @@ ul {
   --color-bg-team: #f5f4fa;
   --color-rare: #2196f3;
   --color-foot: rgba(255, 255, 255, 0.6);
+  --color-brand-dcr: #757575;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -50,7 +51,7 @@ body {
   color: #2196f3;
 }
 .mail {
-  color: #2196f3;
+  color: var(--color-secondary);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -77,17 +78,17 @@ body {
 .logo-studio-foot {
   color: #fff;
 }
-.studio,
 .link-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: #2196f3;
-}
-.link-item {
   color: var(--color-primary);
 }
+/*.link-item {
+  
+  color: #2196f3;
+}*/
 .header {
   font-weight: 900;
   font-size: 44px;
@@ -146,6 +147,9 @@ body {
   font-size: 16px;
   line-height: 1.187;
 }
+.name {
+  font-weight: 500;
+}
 .contact-foot,
 .adress {
   font-size: 14px;
@@ -186,9 +190,9 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.b-everything {
+/*.b-everything {
   cursor: pointer;
-  background: #2196f3;
+  background: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -199,17 +203,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-.b-everything:focus,
-.b-everything:hover,
-.b-everything:active{
-   background-color: #188ce8;
-}
-}
+}*/
+
 .b-web-sites,
 .b-apps,
 .b-disign,
-.b-marketing {
+.b-marketing,
+.b-everything {
   cursor: pointer;
   background: #f5f4fa;
   border-radius: 4px;
@@ -220,4 +220,31 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.b-everything:focus,
+.b-everything:hover,
+.b-everything:active,
+.b-web-sites:focus,
+.b-apps:focus,
+.b-disign:focus,
+.b-marketing:focus,
+.b-web-sites:hover,
+.b-apps:hover,
+.b-disign:hover,
+.b-marketing:hover,
+.b-web-sites:active,
+.b-apps:active,
+.b-disign:active,
+.b-marketing:active {
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
