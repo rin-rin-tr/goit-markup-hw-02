@@ -9,6 +9,13 @@ ul {
   padding: 0px;
   margin: 0px;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+  padding: 0px;
+}
 :root {
   --color-primary: #212121;
   --color-secondary: #757575;
@@ -44,6 +51,7 @@ body {
   border: none;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .button:hover,
 .button:focus {
@@ -140,6 +148,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-primary);
+  margin-bottom: 10px;
 }
 .team-bg {
   background-color: #fff;
@@ -164,6 +173,26 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-primary);
 }
+.speciality {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px; /*118*/
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+
 .name,
 .job {
   font-size: 16px;
@@ -171,6 +200,7 @@ body {
 }
 .name {
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .contact-foot,
 .adress {
