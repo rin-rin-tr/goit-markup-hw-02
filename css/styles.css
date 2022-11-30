@@ -6,6 +6,8 @@ a {
 }
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 :root {
   --color-primary: #212121;
@@ -23,6 +25,7 @@ body {
   background-color: #fff;
 }
 .button {
+  display: inline-block;
   background-color: var(--color-rare);
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -37,6 +40,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button:hover,
 .button:focus {
@@ -110,6 +117,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .visually-hidden {
@@ -205,20 +214,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-brand-dcr);
 }
-/*.b-everything {
-  cursor: pointer;
-  background: #f5f4fa;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}*/
 
 .b-web-sites,
 .b-apps,
@@ -226,7 +221,7 @@ body {
 .b-marketing,
 .b-everything {
   cursor: pointer;
-  background: var(--color-bg-team)
+  background: var(--color-bg-team);
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -235,6 +230,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-primary);
+  padding: 6px 22px;
+  border: none;
 }
 .b-everything:focus,
 .b-everything:hover,
